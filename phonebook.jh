@@ -1,0 +1,14 @@
+entity PhoneBook{
+name String,
+userName String,
+dob LocalDate,
+address String,
+email String,
+phoneNumber String required,
+extension String,
+phoneType String
+}
+paginate PhoneBook with pagination
+dto * with mapstruct
+service all with serviceImpl
+
